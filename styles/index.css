@@ -25,3 +25,16 @@ body {
     text-align: center;
     box-shadow: -1px -1px white, 1px 1px 1px #777;
 }
+
+.modal-createpost{
+    max-width: 80%;
+}
+
+.createPostBtn {
+    text-align: center;
+    justify-content: center;
+}
+
+.createPostBtn button {
+    width: 10%;
+}
