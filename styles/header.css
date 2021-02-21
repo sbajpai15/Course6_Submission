@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0;
+  }
+  
+  .logoText {
+    font-family: "Montez", cursive;
+    color: blue;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .subHeading {
+    font-family: "Ubuntu Mono", monospace;
+    margin: 0;
+    font-weight: normal
+  }
+
+  
+  .btnHolder button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right:25px;
+    margin: 0.4rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+
