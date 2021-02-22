@@ -4,7 +4,7 @@ This project was implemeneted as part of UpGrad Full Stack Development front end
 
 <h2> Key features Implemented </h2>
 
-**1. Index page with Sign Up, Sign In, Cretae Post and All Post features**
+**1. Index page with Sign Up, Sign In, Cretae Post and All Post features **
 
 **2. View All Posts with Delete and Update features **
  
