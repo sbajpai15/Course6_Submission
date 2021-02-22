@@ -12,7 +12,8 @@ window.onload = () => {
 document.addEventListener('click', (po) => {
     if (po.target.id === 'edit-btn') {
         var btn = document.getElementById('edit-btn');
-        //When the Edit Button is pressed.
+        
+        //Edit button press action
         if (btn.innerText.trim() === 'Edit') {
             btn.innerHTML = 'Save <i class="eb eb-save"></i>';
             var editableContents = document.querySelectorAll('.edit-text');
@@ -21,7 +22,7 @@ document.addEventListener('click', (po) => {
                 editableContent.setAttribute('contenteditable', true);
             });
         }
-        //When the save Button is pressed.
+        //Save button press action
         else if (btn.innerText.trim() === 'Save') {
             btn.innerHTML = 'Edit <i class="eb eb-edit"></i>';
             var editableContents = document.querySelectorAll('.edit-text');
@@ -46,7 +47,7 @@ document.getElementById('like-btn').addEventListener('click', (po) => {
     }
 });
 
-//Add comments
+//For adding comments
 document.getElementById('postComment').addEventListener('click', (po) => {
     if (po.target.id == 'comment-btn') {
         var commentText = document.getElementById('txt-comment').value;
