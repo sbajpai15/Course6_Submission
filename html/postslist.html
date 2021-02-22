@@ -22,6 +22,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
+   
 </head>
 
 <body>
@@ -256,29 +257,34 @@
 
 
 
-                <!-- TODO: Write code for delete post modal here -->
+       <!-- TODO: Write code for delete post modal here -->
+       <div class="modalContainer">
+        <div class="modal fade" id="deletePostModal" role="dialog" aria-labelledby="deletePostModalTag"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>Are you sure you want to delete this post?</p>
+                <div class="btnGroup">
+                  <button class="btn green-btn" id="deleteYes" onclick="deletePost()" data-dismiss="modal">Yes</button> 
+                  <button class="btn red-btn" id="deleteNo" data-dismiss="modal">No</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
 
 
     <!-- list of all posts ends here -->
+
+
   </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- Internal Scripts -->
   <script src="../scripts/postslist.js"></script>
+ 
 </body>
 
 </html>

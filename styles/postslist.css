@@ -68,4 +68,23 @@ body {
     margin: 10% auto;
     text-align: center;
 }
+
+.btnGroup {
+    display: flex;
+    justify-content: space-between;
+}
   
+.btnGroup button {
+    border-radius: 0;
+    padding: 1% 7%;
+}
+
+.red-btn{
+    background-color: rgb(255, 0, 13);
+    color: white;
+}
+
+.green-btn {
+    background-color: rgb(0, 255, 42);
+    color: white;
+}

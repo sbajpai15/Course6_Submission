@@ -1,0 +1,95 @@
+.btn {
+    font-size: 0.8rem;
+}
+  
+.editBody {
+    margin: 1% 4%;
+    width: 92%;
+}
+
+#title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+  
+.partition {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.partition .editBtn {
+    padding-right: 1%;
+}
+  
+.partition .editBtn button {
+    width: 120%;
+}
+  
+#writer p {
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 1.2rem;
+}
+  
+#contents {
+    font-family: "Calibri";
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: justify;
+}
+
+.ed-btn {
+    border-radius: 0;
+    background-color: #ed2553;
+    box-shadow: 0px 0.4rem 0.6rem -0.2rem #f79db2;
+    color: white;
+}
+  
+.likeSec button {
+    width: 5%;
+}
+  
+.likeSec .likeCount {
+    margin-top: 0.5%;
+    font-family: "Calibri";
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+  
+#txt-comment {
+    width: 70%;
+    min-height: 10%;
+}
+  
+#postComment button {
+    margin-top: 1%;
+    width: 8%;
+}
+  
+.viewComment {
+    width: 70%;
+    margin-top: 1%;
+    font-weight: bold;
+}
+  
+.viewComment .comments {
+    font-family: "Calibri";
+    font-weight: normal;
+    font-weight: 0.9rem;
+    background-color: lightgrey;
+    padding: 1rem 0.7rem;
+    display: none;
+}
+  
+.viewComment .comments div {
+    background-color: white;
+    padding: 0.5rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+  
+.editEnabled {
+    border: 1px solid #f79db2;
+}
+
+
