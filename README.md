@@ -1,4 +1,4 @@
-#Course 6: Upgrad Assignment
+# Course 6: Upgrad Assignment
 
 This project was implemeneted as part of UpGrad Full Stack Development front end assignment. 
 
